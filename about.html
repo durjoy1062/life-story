@@ -4,8 +4,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    body{
+      background-color: aqua;
+    }
+   h1{
+   background-color: green;
+  }
+img{
+    width:200px;height:250px;
+}
+
+
+  </style>
 </head>
 <body>
-  <p>Gitbash is a terminal.</p>
+  <h1><strong>Dhaka </strong><abbr title="Government">Govt.</abbr> Bangla College</h1>
+  <hr color="black">
+  <address><h2>Mirpur,Dhaka</h2></address>
+  <a href="kit.html">facebook</a>
+  &lt;&lt;under University of Dhaka&gt;&gt;
+ <nav><ol>
+  <li>Science </li>
+ <li>Arts</li> 
+ <li>Commerce</li>
+
+</ol></nav> 
+  <dl>
+<dt><b>Student</b></dt>
+<dd><b>  Durjoy</b></dd><hr color="black"><hr color="black">
+  </dl>
+  <img src="img/durjoy.jpg"> <figcaption>This is Durjoy</figcaption>
+  <br><br>
+  <H1>Student ID</H1>
+  <table border="2px">
+    <caption>Department Of English</caption>
+    <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Roll</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Durjoy Kumar Kar</td>
+      <td>Mirpur,Dhaka</td>
+      <td>6186</td>
+      
+    </tr>
+  </table>
+  <article id="contact">
+    <fieldset>
+      <legend>personal info</legend>
+      <h2>Contact me</h2>
+    <form action="https://httpbin.org/get" method="get">
+      <level for="firstname">First Name:</level>
+      <input type="text" name="firstname"
+       id="firstname" placeholder="Block Name" autocomplete="on">
+    </form>
+    <form action="https://httpbin.org/get" method="get">
+      <level for="lastname">Last Name:</level>
+      <input type="text" name="lastname"
+       id="lastname" placeholder="Block Name" autocomplete="on">
+    </form>
+    <form action="https://httpbin.org/get" method="get">
+      <level for="password">Password:</level>
+      <input type="password" name="password"
+       id="password" placeholder="strong password"
+        autocomplete="on" step="04">
+    </form>
+    <p>
+      <label for="Department">Department</label>
+      <select name="department" id="department">
+        <option value="Bangla">Bangla</option>
+        <option value="English">English</option>
+        <option value="Math">Math</option>
+        <option value="HigherMath">HigherMath</option>
+      </select>
+    </p>
+    </fieldset>
+    <fieldset>
+      <legend>Fabourite Subject</legend>
+      <p>
+        <input type="radio" name="subject" id="Poyetry" value="Poyetry">
+        <label for="Poyetry">Poyetry</label>
+     </p>
+     <p>
+      <input type="radio"name="subject"  id="prose" value="Prose">
+      <label for="prose">Prose</label>
+   </p>
+   <p>
+    <input type="radio"name="subject"  id="History" value="History">
+    <label for="History">History</label>
+ </p>
+    </fieldset>
+  </article>
+
 </body>
 </html>

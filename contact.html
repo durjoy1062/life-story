@@ -4,8 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .progress-bar{
+      border: 1px solid;
+      height: 40px;width: 300px;
+      position: relative;
+    }
+
+    .progress-bar-fill{
+     
+      background-color: aqua;height: 100%;
+      transition: width 0.5s;
+    }
+    .progress-bar-value{
+      height: 100%;width: 100%;position: absolute;
+      justify-content: center;align-items: center;
+display: flex;font-weight: bold;
+
+    }
+  </style>
+
 </head>
 <body>
-  <p>This is Bangla College students.</p>
+  <h2 id="title"> Copy to clipboard - Javascript - decode</h2>
+  <input id="melnp" type="text">
+  <button id="btncopy">Copy</button>
+  <h2>Progress Bar-Web-decode</h2>
+  <div class="progress-bar">
+    <div class="progress-bar-value">65%</div>
+    <div class="progress-bar-fill"></div>
+  </div>
 </body>
 </html>
