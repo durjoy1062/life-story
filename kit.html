@@ -3,9 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>E-Commerce Website</title>
+<style>
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+ text-align:right;margin-right: 50px;
+ margin-top: -50px;margin-bottom: 20px;
+}
+
+nav ul li{
+  display: inline-block;margin-right: 20px;
+}
+
+a{
+  text-decoration:none;color: brown; 
+}
+.container{
+  max-width: 1300px;margin-top: -50px;
+  padding-left: 70px;
+}
+.row{display: flex;flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col{
+  flex-basis: 50%;max-width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+                      
+}
+.col h1{
+  color: brown;margin-top: -40px;
+}
+.col hr{
+  height: 5px;background-color: rgba(255, 102, 0, 0.356);
+   margin-bottom: 20px;
+}
+.col img{
+  max-width: 100%;padding:2px;
+}
+ button{
+  height: 40px;width: 200px;
+  border-radius: 20px;
+  margin-top: 50px;background-color: brown;
+  color:whitesmoke;font-size: large;
+}
+
+
+
+
+</style>
+
 </head>
 <body>
-<h1>I am durjoy kumer kar.</h1>
+  <div class="container">
+     <div class="logo">
+      <img src="img/logo.jpg">
+     </div>
+     <nav>
+      <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">Products </a></li>
+         <li><a href="">About </a></li>
+         <li><a href=""> Contact</a></li>
+         <li><a href="">Account</a></li>
+      </ul>
+     </nav>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h1>
+        Give Your Workout<br>A New Style !
+      </h1><hr>
+      <p>Success isn't alwayes about greatness.It's <br>
+         sometimes come from your smartness also.<br>
+        So cach a new style for your smartness &
+     <br>greatess both.Success will catch you also.
+      </p>
+      
+    </div>
+    <div class="col">
+      <img src="img/kurta1.jpeg">
+    </div>
+    <button>Explore Now &#8594</button>
+  </div>
+ 
 </body>
-</html>
+</html>    
