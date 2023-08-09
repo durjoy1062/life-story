@@ -1,0 +1,60 @@
+.container{
+  width: 100%;min-height: 100vh;
+  background-image:url(img/shape.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav{
+  width: 100%;display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo{
+
+  width: 200px;height: 70px;
+  cursor: pointer; 
+  border:5px solid salmon;
+}
+nav ul{
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  padding-right: 60px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 10px;
+}
+nav ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+button{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;cursor: pointer;
+  color: aliceblue;background-color: brown;
+}
+.content{
+  margin-top: 14%;color: aliceblue ;
+  max-width: 620px; margin-left: 5px;
+}
+.content h1{
+  font-size: 70px;font-weight: 600;
+  line-height: 85px;margin-bottom: 25px;
+}
+.content form{
+  display:flex;margin-top: 30px;
+  padding: 10px;background-color: white;
+  border-radius: 8px;align-items: center;
+ 
+
+}
+.content form input{
+  border: 0;outline: 0;
+  width: 100%;font-size: 20px;
+
+}
